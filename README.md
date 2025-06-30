@@ -1,10 +1,11 @@
 # Vindi API Client
 
+> [!IMPORTANT]
+> **ESTA APLICAÇÃO FOI CONSTRUÍDA PARA ESTUDO E TESTES DO DESENVOLVIMENTO 3DS VINDI DO TIME TRANSACIONAL**
+
 Uma mini aplicação Ruby para consumir a API da Vindi de forma simples e intuitiva.
 
 ## 📋 Sobre
-
-Esta aplicação foi desenvolvida para demonstrar a integração com a [API da Vindi](https://vindi.github.io/api-docs/dist/?url=https://sandbox-app.vindi.com.br/api/v1/docs#/), uma plataforma de pagamentos recorrentes.
 
 A aplicação inclui:
 - Cliente Ruby para consumir a API da Vindi
@@ -112,7 +113,6 @@ puts "Cliente criado: #{result[:data]['customer']['id']}" if result[:success]
 
 Para mais informações sobre os endpoints disponíveis, consulte:
 - [Documentação Oficial da API Vindi](https://vindi.github.io/api-docs/dist/?url=https://sandbox-app.vindi.com.br/api/v1/docs#/)
-- [Portal do Desenvolvedor Vindi](https://developer.vindi.com.br/)
 
 ## 🔧 Estrutura do Projeto
 
@@ -191,20 +191,6 @@ Exemplo de resposta com erro:
 
 Este é um projeto de exemplo e demonstração. Para melhorias:
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature
-3. Commit suas mudanças
-4. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto é apenas para fins educacionais e de demonstração.
-
-## 📞 Suporte
-
-- [Documentação da Vindi](https://developer.vindi.com.br/)
-- [Suporte Vindi](https://atendimento.vindi.com.br/)
-
----
-
-**Nota**: Esta aplicação foi criada para demonstrar a integração com a API da Vindi. Use sempre o ambiente sandbox para testes e desenvolvimento.
+1. Crie uma branch para sua feature
+2. Commit suas mudanças
+3. Abra um Pull Request
